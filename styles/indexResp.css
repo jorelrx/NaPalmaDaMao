@@ -1,0 +1,272 @@
+@media screen and (max-width: 1400px)
+{
+    footer .dados{
+        padding-left: 3.4em;
+    }
+}
+
+@media screen and (max-width: 1230px)
+{
+    header{
+        position: fixed;
+        display: flex;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        background-color: #4f828c;
+    }
+
+    header h1{
+        border-radius: 0px;
+        padding-left: 0.5em;
+        font-size: 3em;
+    }
+
+    header h1 img{
+        width: 110px;
+    }
+
+    main{
+        width: 100vw;
+        height: 100%;
+        padding: 8em 4em 2em 4em;
+        margin-bottom: 0;
+    }
+    
+    .card{
+        width: 25em;
+        height: 26em;
+        background-color: #4aa196;
+    }
+
+    .card h2{
+        font-size: 1.5em;
+    }
+
+    .card img{
+        width: 8em;
+    }
+
+    .card .text-block, .card .text-block p{
+        opacity: 1;
+    }
+
+    .card h2{
+        margin-top: 0.8em;
+        transition: all 0.5s;
+    }
+    
+    .card img{
+        transition: all 0.5s;
+        width: 10em;
+    }
+
+    .card .text-block{
+        background-color: #32968b;
+        opacity: 1;
+        height: 8em;
+        padding: 1em 1em;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+        transition: all 0.5s;
+    }
+
+    .card:hover{
+        height: 26em;
+    }
+
+    .card:hover img{
+        width: 11em;
+    }
+
+    footer .contato{
+        width: 15em;
+    }
+
+    footer .sobre{
+        width: 22em;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    footer .contato{
+        width: 14em;
+    }
+
+    footer .sobre{
+        width: 18em;
+    }
+
+    footer .formulario{
+        margin-top: 2em;
+        width: 22em;
+    }
+}
+
+@media screen and (max-width: 870px) 
+{
+    header{
+        position: fixed;
+        display: flex;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        background-color: #4f828c;
+    }
+
+    header .sandwich{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 1em;
+        top: 2em;
+        cursor: pointer;
+    }
+
+    header h1{
+        border-radius: 0px;
+        font-size: 2.3em;
+        padding-left: 0.5em;
+    }
+
+    header h1 img{
+        width: 80px;
+    }
+
+    main{
+        padding-top: 5em;
+        width: 100%;
+        margin: 3em 0em 0em 0em;
+    }
+
+    .card{
+        border-radius: 0px;
+        padding-right: 12em;
+        width: 28em;
+        height: 15em;
+    }
+
+    .card h2{
+        margin-bottom: 0.7em;
+        font-size: 1.3em;
+    }
+
+    .card img{
+        width: 8em;
+    }
+
+    .card .text-block{
+        opacity: 1;
+        border-radius: 0px;
+        display: inline-block;
+        width: 12em;
+        height: 100%;
+        top: 0px;
+        right: 0px;
+        padding: 1em;
+        text-align: left;
+    }
+
+    .text-block p{
+        opacity: 1;
+        display: inline-block;
+        font-size: 1em;
+    }
+
+    .card:hover{
+        border-radius: 0px;
+        padding-right: 12em;
+        width: 28em;
+        height: 15em;
+    }
+
+    .card:hover h2{
+        margin-top: 0.8em;
+        margin-bottom: 0.7em;
+        font-size: 1.3em;
+    }
+
+    .card:hover img{
+        width: 8em;
+    }
+
+    .card:hover .text-block{
+        border-radius: 0px;
+        background-color: #32968b;
+        display: inline-block;
+        width: 12em;
+        height: 100%;
+        top: 0px;
+        right: 0px;
+        padding: 1em;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        width: 20em;
+        padding: 2em;
+        position: absolute;
+        top: 2em;
+        display: none;
+        transition: all 1s linear;
+    }
+
+    footer .formulario, footer .contato, footer .sobre{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) 
+{
+    header h1{
+        font-size: 2em;
+    }
+
+    header h1 img{
+        width: 60px;
+    }
+
+    header .sandwich{
+        top: 1em
+    }
+    
+    main{
+        padding: 2.3em 0 2em 0;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    header{
+        height: 4.6em
+    }
+
+    header h1{
+        font-size: 1.5em;
+        margin-left: 20vw;
+    }
+
+    header h1 img{
+        display: block;
+        position: absolute;
+        left: 1em;
+    }
+}
+
+@media screen and (max-width: 416px)
+{
+    header{
+        height: 5em;
+    }
+
+    .breakLine{
+        display: block;
+    }
+
+    main{
+        padding-top: 3em;
+    }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Na Palma da Mão</title>
+    <link rel="shortcut icon" href="imagens/Logo_icon.png">
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="styles/indexResp.css" />
+</head>
+<body>
+    <header>
+        <a href="http://napalmadamao.ifrn.edu.br/"><h1><img src="imagens/Logo.png" width="32" alt="Educação na Palma da Mão"/>Educação na<br class="breakLine"> Palma da Mão</h1></a>
+        <img onclick="DropFooter()" class="sandwich" src="imagens/sandwich.png" alt="Menu sandwich">
+    </header>
+    <main>
+        <a href="mathlibrasTeste.html" class="card">
+            <h2>Math Libras</h2>
+            <img src="imagens/MathLibras.png" class="imageGG" alt="Logo na Palma Da Mao">
+            <div class="text-block">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Possimus nostrum voluptate, saepe, culpa, quam repellendus perspiciati
+                </p>
+            </div>
+        </a>
+        <a href="http://napalmadamao.ifrn.edu.br/fisicainvertida/" class="card">
+            <h2>Fisica Invertida</h2>
+            <img src="imagens/Fisica.png" alt="Logo Física Invertida">
+            <div class="text-block">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Possimus nostrum voluptate, saepe, culpa, quam repellendus perspiciati
+                </p>
+            </div>
+        </a>
+        <a href="http://koala.fisicainvertida.com/login" class="card">
+            <h2>Koala</h2>
+            <img src="imagens/Koala.png" alt="Logo Koala">
+            <div class="text-block">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Possimus nostrum voluptate, saepe, culpa, quam repellendus perspiciati
+                </p>
+            </div>
+        </a>
+        <a href="#" class="card">
+            <h2>Fisica Invertida<br> em Libras</h2>
+            <img src="imagens/FLibras.png" alt="Logo FLibras">
+            <div class="text-block">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Possimus nostrum voluptate, saepe, culpa, quam repellendus perspiciati
+                </p>
+            </div>
+        </a>
+    </main>
+    <footer id="footer">
+        <section class="dados">
+                <section class="contato">
+                    <ul>
+                        <li><img src="imagens/pointer.png" alt="pointer" class="logos"> IFRN | Natal - Central</li>
+                        <li><img src="imagens/telefone.png" alt="telefone" class="logos"> 84 98797-2102 </li>
+                        <li><img src="imagens/email.png" alt="e-mail" class="logos"> geraldo.felipe@ifrn.edu.br</li>        
+                    </ul>
+                </section>
+        
+                <section class="sobre">
+                    <h3>SOBRE OS PROJETOS</h3>
+                    <p>
+                        Somos uma equipe de professores, servidores e alunos do IFRN, trabalhando na produção de material didático digital, 
+                        em uma perspectiva inclusiva, versando sobre matemática básica e ciências, com ênfase no letramento científico e 
+                        tecnológico para todas as idades, principalmente para nossos alunos jovens... 
+                        <a href="indexProjetos.html">MAIS INFORMAÇÕES.</a>
+                    </p>
+                </section>
+                <section class="formulario">
+                    <form action="contato.php" method="POST">
+                        <input type="text"  required title="Nome" name="nome" placeholder="Nome" id="nome">
+                        <input type="email"  required placeholder="E-mail" name="email" id="email">                
+                        <textarea placeholder="Mensagem" name="mensagem" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Enviar"  name="BTEnvia" />
+                    </form>
+                </section>
+        </section>
+        <section class="credito">
+            <h4>Desenvolvido por:</h4>
+            <p>Denner Augusto (IFRN/CNAT) e Joel Victor (IFRN/CNAT)</p>
+        </section>
+    </footer>
+    <script>
+        function DropFooter(){
+            var anc = document.getElementById("footer").style;
+            if( anc.display == 'block') anc.display = "none";
+            else anc.display = "block";
+
+        }
+    </script>
+</body>
+</html>

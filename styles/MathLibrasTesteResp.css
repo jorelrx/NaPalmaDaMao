@@ -1,0 +1,90 @@
+@media screen and (max-width: 1230px)
+{
+    footer .sobre{
+        width: 22em;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    footer .contato{
+        width: 17em;
+    }
+
+    footer .sobre{
+        width: 18em;
+    }
+
+    footer .formulario{
+        width: 17em;
+    }
+}
+
+@media screen and (max-width: 870px) 
+{
+    header .sandwich{
+        display: block;
+        position: absolute;
+        left: 46vw;
+        margin-top: 1.5em;
+        background-color: #343740;
+        padding: 1em;
+        cursor: pointer;
+        border-radius: 0 0 1em 1em;
+    }
+    
+    main{
+        width: auto;
+        display: block;
+        padding-top: 0;
+        margin: 0 auto 2em auto;
+    }
+
+    main nav{
+        display: none;
+        background-color: #343740;
+        width: 100%;
+        border-top: 1px solid #555960;
+    }
+
+    main nav ol a{
+        color: white;
+    }
+
+    article{
+        margin: 0 auto;
+        margin-top: 5em;
+    }
+
+    article section{
+        
+        margin: 0 auto;
+    }
+
+    article section ol{
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    footer .dados{
+        margin: 0 auto;
+        width: 30em;
+        flex-wrap: wrap;
+        padding: 2em;
+        transition: all 1s linear;
+    }
+
+    .dados .sobre{
+        text-align: left;
+    }
+
+    footer .formulario, footer .contato, footer .sobre{
+        width: 100%;
+        margin: 2em auto;
+    }
+
+    footer .dados .contato ul{
+        margin: 0 auto;
+    }
+
+}

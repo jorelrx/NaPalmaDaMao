@@ -1,0 +1,137 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Rubik', sans-serif; font-size: 14px; font-weight: 400; color: white}
+header{
+    background-color: #2b7bae;
+    display: flex;
+    padding: 2em;
+}
+
+header h1{
+    font-size: 3em;
+    margin-left: 1em;
+}
+
+header img{
+    width: 130px
+}
+
+main{
+    background-color: #c3ecfe;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+main .card{
+    background-color: #489dd6;
+    border-bottom: 5px solid #19455c;
+    text-decoration: none;
+    margin: 2em auto;
+    text-align: center;
+    padding: 1em;
+    width: 13em
+}
+
+main .card h2{
+    font-size: 1.3em;
+    margin-bottom: 0.7em;
+}
+
+main .card img{
+    width: 100px;
+}
+
+footer{
+    background-color: #2b7bae;
+    text-align: center;
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h3{
+    font-size: 1.5em;
+}
+
+footer .projetosRelacionados{
+    width: 15em;
+    margin-top: 3em;
+}
+
+footer .projetosRelacionados div{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .projetosRelacionados figure{
+    border-radius: 50%;
+    background-color: white;
+    padding: 0.5em;
+    padding-top: 0.7em;
+    width: 3em;
+    height: 3em;
+}
+
+footer .projetosRelacionados img{
+    width: 2em;
+}
+
+.contato{
+    margin-top: 3.5em;
+}
+
+.contato img{
+    vertical-align: middle
+}
+.contato li{
+    margin-bottom: 10px;
+}
+
+.contato ul li{
+    list-style-type: none;
+}
+
+.sobre{
+    text-align: justify;
+    margin-top: 3em;
+    width: 20em;
+}
+
+.sobre h3{
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+.formulario{
+    width: 100%;
+}
+
+.formulario form{
+    text-align: right;
+}
+
+.formulario [type="text"], [type="email"], .formulario textarea{
+    height: 2.5em;
+    width: 100%;
+    margin: 1em;
+    color: black;
+    padding-left: 15px;
+}
+
+.formulario textarea{
+    padding: 15px;
+    height: 10em;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.formulario [type="submit"]{
+    width: 10em;
+    height: 3em;
+    background-color: #1c4f58;
+    border: none;
+    margin-right: -13px;
+}

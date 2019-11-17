@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Math Libras</title>
+    <link rel="shortcut icon" href="imagens/MathLibras.png">
+    <link rel="stylesheet" href="styles/MathLibrasTeste.css">
+    <link rel="stylesheet" href="styles/MathLibrasTesteResp.css">
+</head>
+<body>
+    <header>
+        <a href="mathlibrasTeste.html">
+            <h1>
+                <img src="imagens/MathLibras.png" alt="Logo Math Libras">
+                Math Libras
+            </h1>
+        </a>
+        <img class="sandwich" src="imagens/sandwich.png" alt="Menu sandwich">
+    </header>
+    <main>
+        <nav>
+            <ol>
+                <a href="mathlibrasTeste.html"><li><img class="atual" src="imagens/provisorio/imagem1.png" alt="imagem1"><br>Frações</li></a>
+            </ol>
+        </nav>
+        <article>
+            <section>
+                <h2><img src="imagens/provisorio/aulas.png" alt="aulas">Aulas</h2>
+                <ol>
+                </ol>
+            </section>
+            <hr>
+            <section>
+                <h2><img src="imagens/provisorio/listas.png" alt="#">Listas</h2>
+                <ol>
+                    <a href="http://napalmadamao.ifrn.edu.br/matematica/fracoes/listas/lista01/"><li><img src="imagens/provisorio/imagem2.png" alt="#">Definição de Fração I</li></a>
+                    <a href="http://napalmadamao.ifrn.edu.br/matematica/fracoes/listas/lista02/"><li><img src="imagens/provisorio/imagem2.png" alt="#">Definição de Fração II</li></a>
+                    <a href="http://napalmadamao.ifrn.edu.br/matematica/fracoes/listas/lista03/"><li><img src="imagens/provisorio/imagem2.png" alt="#">Definição de Fração III</li></a>
+                    <a href="http://napalmadamao.ifrn.edu.br/matematica/fracoes/listas/lista04/"><li><img src="imagens/provisorio/imagem2.png" alt="#">Calcular a Fração de um Número</li></a>
+                    <a href="http://napalmadamao.ifrn.edu.br/matematica/fracoes/listas/lista05/"><li><img src="imagens/provisorio/imagem2.png" alt="#">Problemas com Frações I</li></a>
+                    <a href="http://napalmadamao.ifrn.edu.br/matematica/fracoes/listas/lista06/"><li><img src="imagens/provisorio/imagem2.png" alt="#">Problemas com Frações II</li></a>
+                </ol>
+            </section>
+            <hr>
+            <section>
+                <h2><img src="imagens/provisorio/animacao.png" alt="#">Animações Interativas</h2>
+                <ol>
+                </ol>
+            </section>
+        </article>
+    </main>
+    <footer id="footer">
+        <section class="dados">
+                <section class="contato">
+                    <ul>
+                        <li><img src="imagens/pointer.png" alt="pointer" class="logos"> IFRN | Natal - Central</li>
+                        <li><img src="imagens/telefone.png" alt="telefone" class="logos"> 84 98797-2102 </li>
+                        <li><img src="imagens/email.png" alt="e-mail" class="logos"> geraldo.felipe@ifrn.edu.br</li>        
+                    </ul>
+                </section>
+                <div>
+                    <section class="projetosRelacionados">
+                        <h3>PROJETOS</h3>
+                        <section>
+                            <a href="index.html">
+                                <figure>
+                                    <img src="imagens/Logo-azul.png" alt="Logo Na Palma da Mão">
+                                </figure>
+                            </a>
+                            <a href="http://napalmadamao.ifrn.edu.br/fisicainvertida/">
+                                <figure>
+                                    <img src="imagens/Fisica-azul.png" alt="Logo Física Invertida">
+                                </figure>
+                            </a>
+                            <a href="http://koala.fisicainvertida.com/login">
+                                <figure>
+                                    <img src="imagens/Koala-azul.png" alt="Logo Koala">
+                                </figure>
+                            </a>
+                            <a href="#">
+                                <figure>
+                                    <img src="imagens/FLibras-azul.png" alt="Logo FLibras">
+                                </figure>
+                            </a>
+                        </section>
+                    </section>
+                    <section class="sobre">
+                        <h3>SOBRE OS PROJETOS</h3>
+                        <p>
+                            Somos uma equipe de professores, servidores e alunos do IFRN, trabalhando na produção de material didático digital, 
+                            em uma perspectiva inclusiva, versando sobre matemática básica e ciências, com ênfase no letramento científico e 
+                            tecnológico para todas as idades, principalmente para nossos alunos jovens... 
+                            <a href="indexProjetos.html">MAIS INFORMAÇÕES.</a>
+                        </p>
+                    </section>
+                </div>
+                <section class="formulario">
+                    <form action="contato.php" method="POST">
+                        <input type="text"  required title="Nome" name="nome" placeholder="Nome" id="nome">
+                        <input type="email"  required placeholder="E-mail" name="email" id="email">                
+                        <textarea placeholder="Mensagem" name="mensagem" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Enviar"  name="BTEnvia" />
+                    </form>
+                </section>
+        </section>
+        <section class="credito">
+            <h4>Desenvolvido por:</h4>
+            <p>Denner Augusto (IFRN/CNAT) e Joel Victor (IFRN/CNAT)</p>
+        </section>
+    </footer>
+    <script>
+        var inputElement = document.querySelector(".sandwich");
+        inputElement.onclick = function()
+        {
+            var tag = document.querySelector("nav");
+            if (tag.style.display == "block")
+            {
+                tag.style.display = "none";
+                inputElement.style.margin = "1.5em auto auto auto";
+            }
+            else
+            {
+                tag.style.display = "block";
+                inputElement.style.margin = "9em auto auto auto";
+            }
+        }
+    </script>
+</body>
+</html>
